@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/whatsapp_image_2024_05_08_at_14_15_03"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Rental PS Zul"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Type"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/ps3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="PS3"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:id="@+id/ps4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PS4"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:id="@+id/ps5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PS5"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:id="@+id/psvr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PSVR"
+            android:textColor="@color/black" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Tambahan"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/indomie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Indomie"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:id="@+id/mieayam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mie Ayam"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:id="@+id/siomay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Siomay"
+            android:textColor="@color/black" />
+    </RadioGroup>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/waktu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Waktu"
+            android:inputType="textCapCharacters"
+            android:text=" "
+            android:textColor="@color/black" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/pesan"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Pesan" />
+
+
+</LinearLayout>
